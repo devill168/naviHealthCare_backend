@@ -1,0 +1,30 @@
+*** Step 1 ***
++ install Laravel
+    - composer create-project laravel/laravel name_project
+    - run command (php artisan serve)
+
+*** Step 2 ***
++ install Vue.js
+    - ចូល Link Website https://nodejs.org/en
+    - រួចធ្វើការ Download Nodejs v24.13.1 Latest LTS
+    - បន្ទាប់ពីដំឡើង File exe (node-v24.13.1-x64.msi) រួចហើយ
+      -- ត្រូវចូលមើលនៅក្នុង Drive C:\Program Files\nodejs តើមាន File Nodejs រួចហើយ ឬនៅ?
+    - បន្ទាប់មកចូលទៅកាន់ Folder Project laravel
+    - បន្ទាប់មកចុចលើ Path រួចវាយពាក្យ cmd 
+    - វាយ Command (composer required laravel/ui)
+    - វាយ Command (php artisan ui vue)
+    - វាយ Command (npm install)
+
+
+
+************************************************************************************************
+
+  +  Username & Password Defualt
+    - saky
+    - admin123
+
+
+php artisan storage:unlink
+php artisan storage:link
+
+  

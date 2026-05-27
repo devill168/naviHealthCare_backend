@@ -1,0 +1,177 @@
+[
+  {
+    "id": "1",
+    "province_name_en": "Banteay Meanchey",
+    "province_name_kh": "បន្ទាយមានជ័យ",
+    "province_code": "01",
+    "": ""
+  },
+  {
+    "id": "2",
+    "province_name_en": "Battambang",
+    "province_name_kh": "បាត់ដំបង",
+    "province_code": "02",
+    "": ""
+  },
+  {
+    "id": "3",
+    "province_name_en": "Kampong Cham",
+    "province_name_kh": "កំពង់ចាម",
+    "province_code": "03",
+    "": ""
+  },
+  {
+    "id": "4",
+    "province_name_en": "Kampong Chhnang",
+    "province_name_kh": "កំពង់ឆ្នាំង",
+    "province_code": "04",
+    "": ""
+  },
+  {
+    "id": "5",
+    "province_name_en": "Kampong Speu",
+    "province_name_kh": "កំពង់ស្ពឺ",
+    "province_code": "05",
+    "": ""
+  },
+  {
+    "id": "6",
+    "province_name_en": "Kampong Thom",
+    "province_name_kh": "កំពង់ធំ",
+    "province_code": "06",
+    "": ""
+  },
+  {
+    "id": "7",
+    "province_name_en": "Kampot",
+    "province_name_kh": "កំពត",
+    "province_code": "07",
+    "": ""
+  },
+  {
+    "id": "8",
+    "province_name_en": "Kandal",
+    "province_name_kh": "កណ្ដាល",
+    "province_code": "08",
+    "": ""
+  },
+  {
+    "id": "9",
+    "province_name_en": "Koh Kong",
+    "province_name_kh": "កោះកុង",
+    "province_code": "09",
+    "": ""
+  },
+  {
+    "id": "10",
+    "province_name_en": "Kratie",
+    "province_name_kh": "ក្រចេះ",
+    "province_code": "10",
+    "": ""
+  },
+  {
+    "id": "11",
+    "province_name_en": "Mondul Kiri",
+    "province_name_kh": "មណ្ឌលគិរី",
+    "province_code": "11",
+    "": ""
+  },
+  {
+    "id": "12",
+    "province_name_en": "Phnom Penh",
+    "province_name_kh": "រាជធានីភ្នំពេញ",
+    "province_code": "12",
+    "": ""
+  },
+  {
+    "id": "13",
+    "province_name_en": "Preah Vihear",
+    "province_name_kh": "ព្រះវិហារ",
+    "province_code": "13",
+    "": ""
+  },
+  {
+    "id": "14",
+    "province_name_en": "Prey Veng",
+    "province_name_kh": "ព្រៃវែង",
+    "province_code": "14",
+    "": ""
+  },
+  {
+    "id": "15",
+    "province_name_en": "Pursat",
+    "province_name_kh": "ពោធិ៍សាត់",
+    "province_code": "15",
+    "": ""
+  },
+  {
+    "id": "16",
+    "province_name_en": "Ratanak Kiri",
+    "province_name_kh": "រតនគិរី",
+    "province_code": "16",
+    "": ""
+  },
+  {
+    "id": "17",
+    "province_name_en": "Siemreap",
+    "province_name_kh": "សៀមរាប",
+    "province_code": "17",
+    "": ""
+  },
+  {
+    "id": "18",
+    "province_name_en": "Preah Sihanouk",
+    "province_name_kh": "ព្រះសីហនុ",
+    "province_code": "18",
+    "": ""
+  },
+  {
+    "id": "19",
+    "province_name_en": "Stung Treng",
+    "province_name_kh": "ស្ទឹងត្រែង",
+    "province_code": "19",
+    "": ""
+  },
+  {
+    "id": "20",
+    "province_name_en": "Svay Rieng",
+    "province_name_kh": "ស្វាយរៀង",
+    "province_code": "20",
+    "": ""
+  },
+  {
+    "id": "21",
+    "province_name_en": "Takeo",
+    "province_name_kh": "តាកែវ",
+    "province_code": "21",
+    "": ""
+  },
+  {
+    "id": "22",
+    "province_name_en": "Oddar Meanchey",
+    "province_name_kh": "ឧត្ដរមានជ័យ",
+    "province_code": "22",
+    "": ""
+  },
+  {
+    "id": "23",
+    "province_name_en": "Kep",
+    "province_name_kh": "កែប",
+    "province_code": "23",
+    "": ""
+  },
+  {
+    "id": "24",
+    "province_name_en": "Pailin",
+    "province_name_kh": "ប៉ៃលិន",
+    "province_code": "24",
+    "": ""
+  },
+  {
+    "id": "25",
+    "province_name_en": "Tboung Khmum",
+    "province_name_kh": "ត្បូងឃ្មុំ",
+    "province_code": "25",
+    "": ""
+  }
+]
