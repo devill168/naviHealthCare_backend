@@ -1,0 +1,56 @@
+name: Deploy Laravel Backend to VPS
+
+on:
+  push:
+    branches:
+      - main # Triggers the workflow whenever you push to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Execute Deployment Commands via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+            echo "🚀 Starting Deployment..."
+            
+            # Navigate to project directory
+            cd /var/www/naviHealthCare_backend
+            
+            # Pull the latest changes from git
+            git pull origin main
+            
+            # Install Composer dependencies (Production mode)
+            composer install --no-dev --optimize-autoloader --no-interaction
+            
+            # Source NVM to ensure correct Node version is used for Vite compilation
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+            nvm use 22
+            
+            # Install npm packages and build Vue/Vite assets
+            npm install
+            npm run build
+            
+            # Run database migrations securely
+            php artisan migrate --force
+            
+            # Optimize Laravel configurations and routes cache
+            php artisan config:cache
+            php artisan route:cache
+            php artisan view:cache
+            php artisan event:cache
+            
+            # Set explicit directory ownership to prevent Nginx 500 errors
+            sudo chown -R www-data:www-data storage bootstrap/cache public/build
+            
+            echo "✅ Deployment successful!"
