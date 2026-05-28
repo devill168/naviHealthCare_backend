@@ -4,6 +4,8 @@
 # php artisan key:generate
 # php artisan migrate:fresh --seed
 php artisan storage:link
+
+
 # -----------------Frontend------------------------
 # npm install
 # npm run dev
@@ -12,3 +14,9 @@ php artisan storage:link
 #------------------Default User and Password--------------------
 # username: admin
 # password: password
+
+
+
+
+
+
