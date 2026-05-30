@@ -15,7 +15,7 @@ class HealthFacilityController extends Controller
 {
     public function index(Request $request): JsonResponse
     {
-        $perPage = (int) $request->get('per_page', 30);
+        $perPage = (int) $request->get('per_page', 100);
 
         $healthFacilities = HealthFacility::query()
             ->with(['parent', 'province', 'district', 'commune', 'village'])

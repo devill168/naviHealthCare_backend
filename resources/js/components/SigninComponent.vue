@@ -10,7 +10,7 @@
 
           <h2 class="login-title">{{ t("login.title") }}</h2>
           <p class="login-subtitle">
-            Testing
+            Please sign in to access your account
           </p>
         </div>
 
