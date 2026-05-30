@@ -40,8 +40,8 @@ class HealthFacilityVisitorController extends Controller
             $query->whereDate('visit_date', '<=', $request->to_date);
         }
 
-        $perPage = (int) $request->input('per_page', 10);
-        $perPage = $perPage > 0 ? min($perPage, 100) : 10;
+        $perPage = (int) $request->input('per_page', 50);
+        $perPage = $perPage > 0 ? min($perPage, 100) : 50;
 
         $paginator = $query
             ->latest('id')
